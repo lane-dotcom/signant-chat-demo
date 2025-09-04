@@ -7,22 +7,11 @@
 <meta name=robots content=max-image-preview:large>
  <script src="https://cdn.jsdelivr.net/gh/CINTELLILABS/bland-client-js-sdk@main/dist/lib/chat-widget.js"></script>
 <script>
-  window.BLAND_CHAT_CONFIG = {
-    pathwayId: "7aa031a7-0cd6-4dd6-9836-73a9bb55311e",
-    // Optional configurations:
-    position: "bottom-right",     // Options: bottom-right (default), bottom-left, top-right, top-left
-    offset: { x: 20, y: 20 },     // Custom offset from the edge
-    primaryColor: "#151515",      // Custom color for the widget
-    buttonBackgroundColor: "#151515", // Custom color for the chat button
-    headerBackgroundColor: "#151515", // Custom color for the header
-    chatTitle: "Chat Support",    // Custom title for the chat window
-    iconUrl: "https://example.com/icon.svg", // Custom icon for the chat button
-    headerLogoUrl: "https://example.com/logo.svg", // Custom logo for the header
-    width: 350,                   // Width of the chat container in pixels
-    height: 500,                  // Height of the chat container in pixels
-    buttonSize: 60               // Size of the chat button in pixels
+  window.blandSettings = {
+    widget_id: "7aa031a7-0cd6-4dd6-9836-73a9bb55311e",
   };
 </script>
+<script src="https://widget.bland.ai/loader.js" defer></script>
 <style>img:is([sizes="auto"i],[sizes^="auto,"i]){contain-intrinsic-size:3000px 1500px}</style>
 <meta name=keywords content="Signant Health Support">
 <meta name=description content="Signant Health Support">
